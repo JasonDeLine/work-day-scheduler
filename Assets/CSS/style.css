@@ -12,6 +12,14 @@ textarea {
   padding: 10px;
 }
 
+.input-hour-text {
+  border: black;
+}
+
+.form-control {
+  border: none;
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -41,7 +49,7 @@ textarea {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #4ee18b;
   color: white;
 }
 

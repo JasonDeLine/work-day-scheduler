@@ -26,3 +26,18 @@ $(function () {
   //
   // TODO: Add code to display the current date in the header of the page.
 });
+
+// save input to local storage upon save click
+$(".saveBtn").on("click", function () {
+  userInput = $(this).siblings(".form-control").val().trim();
+  console.log(userInput);
+  hourSpan = $(this).siblings(".save-to-local").text().trim();
+  console.log(hourSpan);
+  localStorage.setItem(hourSpan, JSON.stringify(userInput));
+});
+
+// clear day button functionality
+$("#clearDay").on("click", function () {
+  localStorage.clear();
+  initPage();
+});
