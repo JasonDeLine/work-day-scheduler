@@ -73,6 +73,7 @@ function initPage() {
   sevenPm.val(init7);
 }
 
+// Function to look at current time and compare to time block for style
 function background() {
   $(".form-control").each(function () {
     var timeTest = parseInt($(this).attr("id"));
