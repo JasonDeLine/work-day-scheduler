@@ -58,16 +58,17 @@ textarea {
   background-color: grey;
   color: white;
 }
+.future {
+  background-color: #4ee18b;
+  color: white;
+}
 
 .present {
   background-color: #ff6961;
   color: white;
 }
 
-.future {
-  background-color: #4ee18b;
-  color: white;
-}
+
 
 .saveBtn {
   border-left: 1px solid black;
