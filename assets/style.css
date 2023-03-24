@@ -6,7 +6,7 @@ body {
 
 textarea {
   background: transparent;
-  border: none;
+  border: solid black;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
@@ -30,11 +30,11 @@ textarea {
 }
 
 .input-group-text{
-  border: black solid;
+  border: solid black;
 }
 
 .form-control {
-  border: none;
+  border: solid black;
 }
 
 .input-hour-text {
